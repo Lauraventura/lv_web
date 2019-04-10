@@ -55,6 +55,15 @@ a:visited {
     margin: 0%;
 }
 
+.boto{
+    background-color: transparent;
+    border-color: #3F3F3F;
+    height: 40px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
 /* imatges */
 
 .img{
