@@ -37,6 +37,7 @@ a:visited {
     transform: rotate(-90deg);
     bottom: 10%;
     right: -30px;
+    margin-left:-100%;
     /*display: none;*/
 }
 
@@ -66,18 +67,13 @@ a:visited {
 
 /* imatges */
 
-.img{
-    height: 50%;
-    display: block;
-    margin: 0 auto;
-}
+
 
 .imatge{
-    padding-top: 25%;
     width: 50%;
-    display: block;
-    margin: 0 auto;
-    /*background-color: aquamarine;*/
+    display: flex;
+
+    background-color: aquamarine;
 
 }
 
