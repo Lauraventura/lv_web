@@ -54,6 +54,9 @@ a:visited {
 .bloc{
     width: 50%;
     margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boto{
@@ -61,29 +64,28 @@ a:visited {
     border-color: #3F3F3F;
     height: 40px;
     width: 30%;
-    display: block;
-    margin: 0 auto;
+    font-family: 'Libre Baskerville', serif;
+    color: #3F3F3F;
+    
 }
 
 /* imatges */
 
-
+.img{
+    height: 50%;
+}
 
 .imatge{
-    width: 50%;
     display: flex;
-
-    background-color: aquamarine;
+    justify-content: center;
+    /*background-color: aquamarine;*/
 
 }
 
 /* textos */
 
 .text{
-    padding-top: 25%;
     height: 50%;
-    display: block;
-    margin: 0 auto;
     /*background-color: aquamarine;*/
 }
 
