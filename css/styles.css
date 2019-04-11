@@ -49,6 +49,7 @@ a:visited {
     height: 600px;
     display: flex;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .bloc{
@@ -57,6 +58,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .boto{
