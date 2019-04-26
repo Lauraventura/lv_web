@@ -124,8 +124,8 @@ a:visited {
 }
 
 .imatge.papua {
-    width: 80%;
-    padding-top: 80%;
+    width: 100%;
+    padding-top: 100%;
     background-image: url(../img/papua.png);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; 
