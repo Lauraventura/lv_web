@@ -40,9 +40,6 @@ a:visited {
     transform: rotate(-90deg);
     bottom: 70px;
     right: -30px;
-    /*transform: rotate(-90deg);*/
-
-    /*display: none;*/
 }
 
 
@@ -54,6 +51,16 @@ a:visited {
     display: flex;
     align-items: stretch;
 }
+
+
+/*pendent fer
+@media max-width(600px) {
+    .seccio{
+        flex-direction: column;
+    }
+}
+*/
+
 
 .bloc{
     margin: 0%;
@@ -68,16 +75,61 @@ a:visited {
 
 /* imatges */
 
-.img{
+/*.img{
     height: 50%;
     max-width: 100vh;
+}*/
+
+.img_portada.papua{
+    width:100%;
+    background-image: url(../img/about.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .imatge{
     display: flex;
     justify-content: center;
+    width: 50%;
+    padding-top: 50%;
     /*background-color: aquamarine;*/
 
+}
+
+.imatge.about {
+
+    background-image: url(../img/about.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.imatge.mimu {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../img/mimu.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.imatge.recaditos {
+    width: 80%;
+    padding-top: 80%;
+    background-image: url(../img/recaditos.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.imatge.papua {
+    width: 80%;
+    padding-top: 80%;
+    background-image: url(../img/papua.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 /* textos */
@@ -105,8 +157,13 @@ h2{
     background-color: #0D4AFB;
 }
 
+.blauclar{
+    background-color: rgb(189, 205, 255);
+}
+
+
 .blanc{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 } 
 
 .turquesa{
@@ -119,4 +176,12 @@ h2{
 
 .groc{
     background-color: rgb(255, 213, 97);
+}
+
+.lila{
+    background-color: #827fe8;
+}
+
+.lilaclar{
+    background-color: #e6e5fc;
 }
