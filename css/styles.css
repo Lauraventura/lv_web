@@ -111,32 +111,8 @@ a:visited {
 }
 
 .imatge{
-    display: flex;
-    justify-content: center;
     width: 80%;
-    padding-top: 80%;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; 
-    background-size: cover;
-    /*background-color: aquamarine;*/
-
-}
-
-.imatge.about {
-    background-image: url(../img/about.jpg);
-}
-
-.imatge.mimu {
-    background-image: url(../img/mimu.jpg);
-}
-
-.imatge.recaditos {
-    background-image: url(../img/recaditos.jpg);
-}
-
-.imatge.papua {
-    background-image: url(../img/papua.png);
-
+    max-width: 45vh;
 }
 
 /* textos */
@@ -205,6 +181,7 @@ h2{
 
 
 
+/*@media (max-width: 768px) {*/
 @media (max-width: 768px) {
 
     body{
@@ -228,4 +205,30 @@ h2{
     #bottom_dr{
         display: none;
     }
-    } 
+}
+
+/* ASPECT RATIO IMG UTILS */
+
+[class*='ratio-'] {
+    display: block;
+    position: relative;
+}
+
+[class*='ratio-'] > * {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    object-fit: cover;
+}
+
+.aspect-ratio-wide {
+    padding-top: 56.25%;
+}
+
+.aspect-ratio-square {
+    padding-top: 100%;
+}
