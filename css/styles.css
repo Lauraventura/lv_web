@@ -88,17 +88,6 @@ a:visited {
 }
 
 
-
-@media (max-width: 768px) {
-
-.seccio {
-    display: flex;
-    flex-direction: column;
-    }
-} 
-
-
-
 .bloc{
     margin: 0%;
     display: flex;
@@ -106,9 +95,27 @@ a:visited {
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
-    width:960px;
+    /*width:960px;*/
 }
 
+@media (max-width: 768px) {
+
+body{
+    font-size: 11px;
+}
+
+.seccio {
+    display: flex;
+    flex-direction: column-reverse;  
+    height: 100vh;
+}
+
+
+.bloc.esquerra{
+    order: 1;
+}
+    
+    } 
 
 
 /* imatges */
