@@ -110,8 +110,11 @@ body{
     height: 100vh;
 }
 
+.bloc{
+    height: 50vh;
+}
 
-.bloc.esquerra{
+.bloc.foto{
     order: 1;
 }
     
@@ -119,11 +122,6 @@ body{
 
 
 /* imatges */
-
-/*.img{
-    height: 50%;
-    max-width: 100vh;
-}*/
 
 .img_portada.papua{
     width:100%;
@@ -143,7 +141,6 @@ body{
 }
 
 .imatge.about {
-
     background-image: url(../img/about.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; 
