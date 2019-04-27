@@ -98,27 +98,6 @@ a:visited {
     /*width:960px;*/
 }
 
-@media (max-width: 768px) {
-
-body{
-    font-size: 11px;
-}
-
-.seccio {
-    display: flex;
-    flex-direction: column-reverse;  
-    height: 100vh;
-}
-
-.bloc{
-    height: 50vh;
-}
-
-.bloc.foto{
-    order: 1;
-}
-    
-    } 
 
 
 /* imatges */
@@ -134,44 +113,30 @@ body{
 .imatge{
     display: flex;
     justify-content: center;
-    width: 50%;
-    padding-top: 50%;
+    width: 80%;
+    padding-top: 80%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    background-size: cover;
     /*background-color: aquamarine;*/
 
 }
 
 .imatge.about {
     background-image: url(../img/about.jpg);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
 
 .imatge.mimu {
-    width: 90%;
-    padding-top: 90%;
     background-image: url(../img/mimu.jpg);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
 
 .imatge.recaditos {
-    width: 80%;
-    padding-top: 80%;
     background-image: url(../img/recaditos.jpg);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
 
 .imatge.papua {
-    width: 100%;
-    padding-top: 100%;
     background-image: url(../img/papua.png);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; 
-    background-size: cover;
+
 }
 
 /* textos */
@@ -231,3 +196,36 @@ h2{
 .lilaclar{
     background-color: #e6e5fc;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    body{
+        font-size: 11px;
+    }
+    
+    .seccio {
+        display: flex;
+        flex-direction: column-reverse;  
+        height: 100vh;
+    }
+    
+    .bloc{
+        height: 50vh;
+    }
+    
+    .bloc.foto{
+        order: 1;
+    }
+        
+    .boton_dr{
+        display: none;
+    }
+    } 
