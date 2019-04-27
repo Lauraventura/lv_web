@@ -112,8 +112,38 @@ a:visited {
 
 .imatge{
     width: 80%;
-    max-width: 45vh;
 }
+
+/* .bubble{
+    position: absolute;
+  
+}
+
+.hola_contacte{
+	position: relative;
+	max-width: 30em;
+	
+	background-color: #fff;
+	padding: 1.125em 1.5em;
+	font-size: 1em;
+	border-radius: 1rem;
+}
+
+.hola_contacte::before{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: -15%;
+	left: 25em; 
+	border: .75rem solid transparent;
+	border-top: none;
+
+    border-bottom-color: rgb(255, 255, 255);
+    transform: rotate(180deg);
+} */
+
+
 
 /* textos */
 
@@ -132,6 +162,14 @@ h2{
     color: #3F3F3F;
     
 }
+
+.boto:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+    }
+
 
 
 
@@ -153,6 +191,10 @@ h2{
     background-color: #8ADEBF;
 } 
 
+.turquesa2{
+    background-color: #8BFFD7;
+}
+
 .vermell{
     background-color: #F78079;
 }
@@ -163,6 +205,10 @@ h2{
 
 .groclar{
     background-color: rgb(255, 249, 233);
+}
+
+.taronja{
+    background-color: #FFC677;
 }
 
 .lila{
@@ -200,6 +246,10 @@ h2{
     
     .bloc.foto{
         order: 1;
+    }
+
+    .imatge{
+        max-width: 45vh;
     }
         
     /* #bottom_dr{
