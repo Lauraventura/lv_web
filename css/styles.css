@@ -36,10 +36,20 @@ body{
 /* nav */
 
 .menu{
-    text-decoration: none;
-    color: #3F3F3F;
     position: fixed;
     z-index: 2;
+}
+
+.menu_projecte{
+    position: fixed;
+    z-index: 2;
+    bottom: 30px;
+    left: 20px;  
+}
+
+a{
+    color: #3F3F3F;
+    text-decoration: none;
 }
 
 a:visited { 
@@ -221,7 +231,15 @@ h2{
         flex-direction: column-reverse;  
         height: 100vh;
     }
+
+    .menu_projecte{
+        display: none;
+    }
     
+    #bottom_dr{
+        display: none;
+    }
+
     .bloc{
         height: 50vh;
     }
