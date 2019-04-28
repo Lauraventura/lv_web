@@ -39,6 +39,7 @@ body{
     text-decoration: none;
     color: #3F3F3F;
     position: fixed;
+    z-index: 2;
 }
 
 a:visited { 
