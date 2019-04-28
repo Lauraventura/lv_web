@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 100%;
     color: #3F3F3F;
-    line-height: 1.6;
+    line-height: 1.7;
     font-size: 15px;
 
     /*iman scroll*/
@@ -115,34 +115,7 @@ a:visited {
     width: 80%;
 }
 
-/* .bubble{
-    position: absolute;
-  
-}
 
-.hola_contacte{
-	position: relative;
-	max-width: 30em;
-	
-	background-color: #fff;
-	padding: 1.125em 1.5em;
-	font-size: 1em;
-	border-radius: 1rem;
-}
-
-.hola_contacte::before{
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-	bottom: -15%;
-	left: 25em; 
-	border: .75rem solid transparent;
-	border-top: none;
-
-    border-bottom-color: rgb(255, 255, 255);
-    transform: rotate(180deg);
-} */
 
 
 
@@ -150,6 +123,10 @@ a:visited {
 
 h2{
     font-weight: bold;
+}
+
+.text.paragraf{
+    padding: 20%;
 }
 
 .boto{
@@ -200,6 +177,10 @@ h2{
     background-color: #F78079;
 }
 
+.vermellclar{
+    background-color: rgb(255, 231, 230);
+}
+
 .groc{
     background-color: rgb(255, 213, 97);
 }
@@ -217,7 +198,7 @@ h2{
 }
 
 .lilaclar{
-    background-color: #e6e5fc;
+    background-color: #f2f1ff;
 }
 
 

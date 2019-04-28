@@ -1,22 +1,28 @@
 <html>
     <head>
         <title>Laura Ventura</title>
+        <meta charset="utf-8">
+        <meta name="description" content="UX/UI Designer">
+        <meta name="keywords" content="ux, ui, design, ux designer, laura ventura">
+        <meta name="author" content="Laura Ventura">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="css/reset.css"/> 
         <link rel="stylesheet" href="css/styles.css"/> 
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
         <script type="text/javascript" src="js/script.js"></script>
     </head>
 
- 
+  
 
-    <body>
+    <body id="wrapper">
         
         <header>
             <nav>
                 <ul>
                     <li><a class="menu lv_nom" href="index.html">Laura Ventura</a></li>
                     <li><a class="menu top_dr" href="index.html">es</a></li>
-                    <li><a onclick="topFunction()" class="menu bottom_dr" href="index.html">Back to top &xrarr;</a></li>
+                    <li><a class="menu bottom_dr-hidden" id="bottom_dr" href="#wrapper">Back to top &xrarr;</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,55 +30,197 @@
         <main>
             <!--about-->
             <section class="seccio">
-                <div class="img_portada papua"></div>
+                <div class="bloc turquesa foto">
+                    <div class="imatge">
+                        <div class="aspect-ratio-wide">
+                            <img src="img/papua_portada.jpg" />
+                        </div>
+                    </div>
+                </div>
             </section>
 
 
-            <!--mimu-->
+            <!--prototype-->
             <section class="seccio">
-                <div class="bloc groc">
-                    <div class="imatge mimu"></div>
+                <div class="bloc groc foto">
+                    <div class="imatge">
+                        <div class="aspect-ratio-square">
+                            <img src="img/mimu.jpg" />
+                        </div>
+                    </div>
                 </div>
 
-                <div class="bloc vermell">
-                    <div class="text">
-                        <p>Mimu is a smart diary meant<br> 
-                        to recognize both toxic and<br> 
-                        healthy patterns of behaviour.<br><br>
-                                
-                        A tool to encourage positive<br> 
-                        routines and collect good<br> 
-                        memories that will help you<br> 
-                        through difficult times.<br><br></p>
-                        <a href="mimu.html">
-                            <button class="boto">case study</button>
-                        </a>
+                <div class="bloc groclar">
+                    <div class="text paragraf">
+                        <h2>Prototype<br><br></h2>
+                        <p>Mimu is a smart diary meant
+                            to recognize both toxic and
+                            healthy patterns of behaviour.
+                            It is a tool to encourage positive
+                            routines and collect good 
+                            memories that will help you 
+                            through difficult times.<br><br>
+                            
+                            Although Mimu is still a protoype, 
+                            you can try it here. If you wish to 
+                            know about the origin and evolution 
+                            of the project, keep scrolling.
+                        </p>
                         
                     </div>
                 </div>  
             </section>  
 
-            <!--jiminy-->
+
+            <!--research-->
             <section class="seccio">
-                <div class="bloc blanc">
-                    <div class="text">
-                        <p><h2>Hi! I’m Laura Ventura,<br>
-                        a UX/UI designer<br>
-                        based in Barcelona</h2><br></p>
-                        <p>I am currently looking <br>
-                        for full-time opportunities,<br> 
-                        check out my latest projects<br>
-                        and drop me a line if you<br>
-                        feel like working together<br><br></p>
-                        <p>lauraventurarubio@gmail.com</p>
+
+                <div class="bloc vermellclar">
+                    <div class="text paragraf">
+                        <h2>Research<br><br></h2>
+                        <p>Given the subject I was dealing with, 
+                            I focused my research on the interviews. 
+                            Nevertheless, I still used surveys to 
+                            check some facts so that my own opinion 
+                            would not alter the results.<br><br>
+ 
+                            The conclusions confirmed something crucial: 
+                            there is certain anxiety triggered by the 
+                            fact that people suffering from cyclical 
+                            depression don’t always pick the signs 
+                            when they are about to relapse. That 
+                            feeling is quite permanent, and it is 
+                            usually difficult to tell if it is based 
+                            on facts or just fear of relapse.</p>
+                        
+                    </div>
+                </div>  
+                <div class="bloc vermell foto">
+                    <div class="imatge">
+                        <div class="aspect-ratio-square">
+                            <img src="img/papuarombo.gif" />
+                        </div>
                     </div>
                 </div>
-    
-                <div class="bloc blau">
-                    <div class="imatge sobre"></div>
+            </section>             
+
+            <!--concept-->
+            <section class="seccio">
+                <div class="bloc lila foto">
+                    <div class="imatge">
+                        <div class="aspect-ratio-square">
+                            <img src="img/recaditos.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="bloc lilaclar">
+                        <div class="text paragraf">
+                            <h2>Concept<br><br></h2>
+                            <p>I had to create a product to help 
+                                people with depression to cope with 
+                                the ups and downs affecting them. 
+                                But it was complex: as research showed, 
+                                they are sometimes in need of affection 
+                                and hope, while in some other occasions 
+                                they require facts and data to connect 
+                                them to reality. <br><br>
+         
+                                I came up with the idea to track the 
+                                user’s feelings in order to offer two 
+                                main features: a dashboard with statistics, 
+                                and a feed with all the good memories the 
+                                user has registered.  Based on those 
+                                memories, the product also suggests creating 
+                                alarms to help achieve healthy routines.
+                                
+                        </div>
                 </div>
             </section> 
 
+
+            <!--IxD-->
+            <section class="seccio">
+                <div class="bloc blanc">
+                    <div class="text paragraf">
+                        <h2>IxD<br><br></h2>
+                        <p>Now that the main features were 
+                            established, I could create the 
+                            first prototype of the app. It 
+                            allowed me to test the flows and 
+                            create smoother navigation, but it 
+                            also was the first chance I had to 
+                            show users a materialized version 
+                            of my idea.<br><br>
+                                    
+                            I think at this point one can see 
+                            if you are honoring the research 
+                            you made or not: if it is, users 
+                            will be engaged, they will feel 
+                            connected to the project and will 
+                            give you meaningful feedback. I feel 
+                            like this was the last check I needed 
+                            to validate the whole concept.
+                        </p>
+                                
+                    </div>
+                </div>
+                <div class="bloc turquesa2">
+                    <div class="imatge">
+                        
+                        <div class="aspect-ratio-square">
+                            <img src="img/contact.png" />
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <!--ui-->
+            <section class="seccio">
+                    <div class="bloc lila foto">
+                        <div class="imatge">
+                            <div class="aspect-ratio-square">
+                                <img src="img/recaditos.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloc lilaclar">
+                            <div class="text paragraf">
+                                <h2>UI<br><br></h2>
+                                <p>I wanted the visuals to stay connected 
+                                    to the needs of my persona, to keep 
+                                    in mind all the previous research. 
+                                    Considering I had two main features 
+                                    that related to different feelings and 
+                                    required distinct content, I decided 
+                                    to create two color palettes, that 
+                                    would help create that “switch” from 
+                                    one state to the other. <br><br>
+             
+                                    A palette of blue would be the one 
+                                    for analytic data, statistics, facts. 
+                                    Then a pink palette for the emotional 
+                                    content, the one that gives hope and 
+                                    ignores all bad things. 
+                                    
+                            </div>
+                    </div>
+                </section> 
+
+            <!--Next/previous project-->
+            <section class="seccio">
+                    <div class="bloc blanc">
+                        <div class="text paragraf">
+                            <h2>&#10229; Previous project</h2>                    
+                        </div>
+                    </div>
+                    <div class="bloc turquesa2">
+                        <div class="text paragraf">
+                            <h2>Next project &#10230;</h2>              
+                        </div>
+                    </div>
+                </section> 
+            
+            
         </main>
 
 
@@ -83,4 +231,4 @@
     </body>
     
     
-</html>      
+</html>    
