@@ -43,8 +43,13 @@ body{
 .menu_projecte{
     position: fixed;
     z-index: 2;
-    bottom: 30px;
+    bottom: 20px;
     left: 20px;  
+    font-size: 13px;
+}
+
+.menu_projecte>li:hover{
+    text-decoration-line: underline;
 }
 
 a{
@@ -55,6 +60,12 @@ a{
 a:visited { 
     color: #3F3F3F;
 }
+
+
+.activat{
+    text-decoration-line: underline;
+}
+
 
 .lv_nom{
     top: 20px;
