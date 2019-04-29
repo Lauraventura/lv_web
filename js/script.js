@@ -8,6 +8,9 @@ document.addEventListener('scroll', function(){
 })
 
 
+
+//ni puta idea de què falla: referencia a "id", "div"...
+
 $(document).ready(function(){
   // $sections includes all of the container divs that relate to menu items.
   var $sections = $('.seccio');

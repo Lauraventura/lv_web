@@ -46,7 +46,9 @@ body{
     bottom: 20px;
     left: 20px;  
     font-size: 13px;
+    opacity: 0.9;
 }
+
 
 .menu_projecte>li:hover{
     text-decoration-line: underline;
@@ -202,6 +204,19 @@ h2{
     background-color: rgb(255, 231, 230);
 }
 
+.vermelltaronja{
+    background-color: #FFE1D3;
+    /*background-color: #FF5000;*/
+}
+
+.vermelltaronjafosc{
+    background-color: #F78352;
+}
+
+.carn{
+    background-color: rgb(252, 241, 236);
+}
+
 .groc{
     background-color: rgb(255, 213, 97);
 }
@@ -266,6 +281,13 @@ h2{
     #bottom_dr{
         display: none;
     }
+
+    .text.paragraf{
+        padding: 10%;
+    }
+
+
+
 }
 
 /* ASPECT RATIO IMG UTILS */
