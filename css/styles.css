@@ -53,6 +53,10 @@ body{
     text-decoration-line: underline;
 }
 
+.menu_projecte>li.active{
+    text-decoration: underline;
+}
+
 a{
     color: #3F3F3F;
     text-decoration: none;
