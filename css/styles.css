@@ -16,7 +16,7 @@ body{
 
     /*iman scroll*/
     
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory;
     height: 100vh;
     overflow: auto;  
     scroll-snap-type: y mandatory; 
@@ -27,7 +27,7 @@ body{
     scroll-snap-points-x: initial;
     -ms-scroll-snap-points-x: initial;
     scroll-snap-points-y: repeat(100%);
-    -ms-scroll-snap-points-y: repeat(100%);
+    -ms-scroll-snap-points-y: repeat(100%); */
     
 
 }
@@ -119,6 +119,14 @@ a:visited {
     flex-wrap: wrap;
     flex: 1;
     /*width:960px;*/
+}
+
+.next{
+    display: none;
+    padding: 20px;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 1%;
 }
 
 
@@ -285,6 +293,14 @@ h2{
         height: 50vh;
     }
     
+    .next{
+        display: inline;
+        padding: 20px;
+        transform: rotate(90deg);
+        position: absolute;
+        bottom: 1%;
+    }
+
     .bloc.foto{
         order: 1;
     }
