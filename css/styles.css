@@ -103,10 +103,9 @@ a:visited {
     display: flex;
     align-items: stretch;
 
-    /*iman scroll*/
-    scroll-snap-align: start;
+    /*iman scroll ACTIVAR QUAN TINGUI SUPORT*/
     flex-shrink: 0;  
-    scroll-snap-align: start; /* latest (Chrome 69+) */  
+    scroll-snap-align: start; 
     /*scroll-snap-coordinate: 0% 0%; /* older (Firefox/IE) */  
     -webkit-scroll-snap-coordinate: 0% 0%; /* older (Safari) */ 
 }
