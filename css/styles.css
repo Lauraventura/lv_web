@@ -307,6 +307,10 @@ h2{
         height: 100vh;
     }
 
+    .img_portada.mimu{
+        background-image: url(../img/mimuportada_responsive.png);
+    }
+
     .menu_projecte{
         display: none;
     }
