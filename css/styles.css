@@ -48,6 +48,10 @@ body{
     opacity: 0.9;
 }
 
+.menu.lv_nom_about{
+    font-size: 13px;
+}
+
 
 .menu_projecte>li:hover{
     text-decoration-line: underline;
@@ -302,6 +306,10 @@ h2{
 
     .menu_projecte{
         display: none;
+    }
+
+    .menu.lv_nom_about{
+        font-size: 10px;
     }
     
     #bottom_dr{
