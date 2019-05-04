@@ -55,6 +55,7 @@ body{
 
 .menu_projecte>li.active{
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 a{
@@ -128,7 +129,7 @@ a:visited {
 .next{
     display: none;
     padding: 20px;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     position: absolute;
     bottom: 1%;
 }
@@ -137,13 +138,15 @@ a:visited {
 
 /* imatges */
 
-.img_portada.papua{
+.img_portada.mimu{
     width:100%;
-    background-image: url(../img/about.jpg);
-    background-position: center; /* Center the image */
+    height: 98vh;
+    background-image: url(../img/mimuportada.png);
+    background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
 
 .imatge{
     width: 80%;
@@ -295,15 +298,17 @@ h2{
 
     .bloc{
         height: 50vh;
+        position: relative;
     }
     
     .next{
-        display: inline;
+        display: block;
         padding: 20px;
-        transform: rotate(90deg);
+        /* transform: rotate(90deg); */
         position: absolute;
         bottom: 1%;
     }
+
 
     .bloc.foto{
         order: 1;
