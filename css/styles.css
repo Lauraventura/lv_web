@@ -112,6 +112,7 @@ a:visited {
 }
 
 
+
 /* seccions */
 
 .seccio{
@@ -165,7 +166,7 @@ a:visited {
 }
 
 .imatge.waving{
-    width: 50%;
+    width: 70%;
 }
 
 
@@ -218,6 +219,10 @@ h2{
 /* colors */
 .blau{
     background-color: #0D4AFB;
+}
+
+.blauabout{
+    background-color: #30EFEC;
 }
 
 .gris{
