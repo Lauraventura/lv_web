@@ -193,7 +193,7 @@ h2{
 }
 
 .text.about{
-    padding: 20% 20% 10% 20%;
+    padding: 20% 20% 20% 20%;
 }
 
 .boto{
@@ -229,10 +229,20 @@ h2{
     transition: all 0.4s ease 0s;
 }
 
+.boto.hoverblau:hover {
+    color: #ffffff !important;
+    background: #0D4AFB;
+    border-color: #0D4AFB !important;
+    transition: all 0.4s ease 0s;
+}
+
+/* .fa .fab{
+    margin-right: 40px; 
+}  */
 
 /* colors */
 .blau{
-    background-color: #0D4AFB;
+    background-color: #2A74FF;
 }
 
 .blauabout{
