@@ -262,11 +262,19 @@ h2{
 }
 
 .blaugriset{
-    background-color: #F0F3F9;
+    background-color: #F9F9F9;
 }
 
 .blaujourney{
     background-color: #699DFF;
+}
+
+.blaumvp{
+    background-color: #CADCFF;
+}
+
+.blauflow{
+    background-color: #F8FAFF;
 }
 
 .blaugrisfosc{
