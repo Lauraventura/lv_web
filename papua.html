@@ -32,19 +32,19 @@
 
                 <ul class="menu_projecte">
                     <!-- <li><a href="#portada">Portada</a></li> -->
-                    <li><a href="#prototip">Prototype</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#concept">Concept</a></li>
-                    <li><a href="#interaction">Interaction design</a></li>
-                    <li><a href="#ui">UI & Music</a></li>
-                    <!-- <li><a href="#links">Links</a></li> -->
+                    <!-- <li><a href="#prototip">Prototype</a></li> -->
+                    <li id="menu-research"><a href="#research">User Research</a></li>
+                    <li id="menu-ixd"><a href="#ixd">Interaction design</a></li>
+                    <li id="menu-ui"><a href="#ui">Visual design</a></li>
+                    <li id="menu-prototip"><a href="#prototype">Prototype</a></li>
+                    <li id="menu-next"><a href="mimu.html">Next project &#10230;</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <!--about-->
-            <section class="seccio" id="portada">
+            <section class="seccio">
                 <div class="bloc lilapapua foto">
                     <div class="imatge">
                         <div class="aspect-ratio-wide">
@@ -55,8 +55,8 @@
             </section>
 
 
-            <!--prototype-->
-            <section class="seccio" id="prototip">
+            <!--presentacio-->
+            <section class="seccio">
                     <div class="bloc vermelltaronjafosc foto">
                             <div class="imatge">
                                 <div class="aspect-ratio-square">
@@ -83,8 +83,8 @@
 
 
             <!--research-->
-            <section class="seccio" id="research">
-
+            <div id="research" class="seccioMenu" data-id_item_menu="menu-research">
+            <section class="seccio" >
                 <div class="bloc carn">
                     <div class="text paragraf">
                         <h2>Research<br><br></h2>
@@ -113,7 +113,7 @@
             </section>             
 
             <!--concept-->
-            <section class="seccio" id="concept">
+            <section class="seccio">
                 <div class="bloc blanc foto">
                     <div class="imatge">
                         <div class="aspect-ratio-square">
@@ -139,8 +139,8 @@
             </section> 
 
 
-            <!--IxD-->
-            <section class="seccio" id="interaction">
+            <!--MVP-->
+            <section class="seccio">
                 <div class="bloc blausuperclar">
                     <div class="text paragraf">
                         <h2>MVP<br><br></h2>
@@ -151,6 +151,12 @@
                             I thought a game would be a great environment 
                             to experiment with navigation systems that could 
                             eventually be implemented to other contexts. 
+                            As my users pointed out during the interviews, 
+                            Iphones were the most accessible smartphones 
+                            in the market and the most popular amongst 
+                            blind users and therefore, I decided my MVP 
+                            would be a game for iOS. 
+
                                 
                         </p>
                                 
@@ -160,18 +166,21 @@
                     <div class="imatge">
                         
                         <div class="aspect-ratio-square">
-                            <img src="img/ixdpapua.png" />
+                            <img src="img/mvpapua.png" />
                         </div>
                     </div>
                 </div>
             </section> 
 
-            <!--ui-->
-            <section class="seccio" id="ui">
+        </div> <!--acaba research-->
+
+
+            <!--IxD-->
+            <section class="seccio" id="ixd">
                     <div class="bloc blaugriset foto">
                         <div class="imatge">
                             <div class="aspect-ratio-square">
-                                <img src="img/ixdpapua.png" />
+                                <img src="img/ixdpapua.png" class="seccioMenu" data-id_item_menu="menu-ixd"/>
                             </div>
                         </div>
                     </div>
@@ -196,8 +205,8 @@
                     </div>
                 </section> 
 
-            <!--IxD-->
-            <section class="seccio" id="interaction">
+            <!--UI-->
+            <section class="seccio" id="ui">
                     <div class="bloc blausuperclar">
                         <div class="text paragraf">
                             <h2>UI&Music<br><br></h2>
@@ -217,11 +226,39 @@
                         <div class="imatge">
                             
                             <div class="aspect-ratio-square">
-                                <img src="img/moodpapua.png" />
+                                <img src="img/moodpapua.png" class="seccioMenu" data-id_item_menu="menu-ui"/>
                             </div>
                         </div>
                     </div>
                 </section> 
+
+                <!--prototype-->
+                <section class="seccio" id="prototype">
+                    
+                        <div class="bloc vermell foto">
+                            <div class="imatge">
+                                <div >
+                                    <a class="aspect-ratio-square" href="../lv_web/prototip_papua/index.html" target="_blank">
+                                        <img src="img/prototypepapua.png"  class="seccioMenu" data-id_item_menu="menu-prototip"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="bloc blanc">
+                                <div class="text paragraf">
+                                    <h2>Prototype<br><br></h2>
+                                    <p>Here you can access the first prototype 
+                                        of Papua. Don’t be harsh to it, we are 
+                                        currently developing the whole game, as 
+                                        the audio and accessibility features are 
+                                        not available yet. Have Fun!
+                                        
+                                </div>
+                        <!-- activat nomes per mbl -->
+                        <a class="next" href="#links">&#8609;</a>
+                        </div>
+                    </section> 
 
 
             <!--Next/previous project-->

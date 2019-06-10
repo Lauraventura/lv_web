@@ -28,20 +28,18 @@
                 </ul>
 
                 <ul class="menu_projecte">
-                    <!-- <li><a href="#portada">Portada</a></li> -->
-                    <li><a href="#prototip">Prototype</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#concept">Concept</a></li>
-                    <li><a href="#interaction">Interaction design</a></li>
-                    <li><a href="#ui">UI</a></li>
-                    <!-- <li><a href="#links">Links</a></li> -->
+                        <li id="menu-research"><a href="#research">User Research</a></li>
+                        <li id="menu-ixd"><a href="#ixd">Interaction design</a></li>
+                        <li id="menu-ui"><a href="#ui">Visual design</a></li>
+                        <li id="menu-prototip"><a href="#prototype">Prototype</a></li>
+                        <li id="menu-next"><a href="papua.html">Next project &#10230;</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <!--about-->
-            <section class="seccio" id="portada">
+            <section class="seccio">
                     <div class="bloc blanc foto">
                         <div class="img_portada jiminy">
                             <!-- <div class="aspect-ratio-wide">
@@ -57,8 +55,8 @@
                 </section>
 
 
-            <!--prototype-->
-            <section class="seccio" id="prototip">
+            <!--about1-->
+            <section class="seccio">
                 <div class="bloc blau foto">
                     <div class="imatge">
                         <div class="aspect-ratio-square">
@@ -83,7 +81,8 @@
 
 
             <!--research-->
-            <section class="seccio" id="research">
+            <div id="research" class="seccioMenu" data-id_item_menu="menu-research">
+            <section class="seccio">
 
                 <div class="bloc blanc">
                     <div class="text paragraf">
@@ -174,14 +173,18 @@
                         </div>
                 </div>
             </section> 
+        </div>  <!--Acaba research-->
+
+
 
 
             <!--IxD-->
-            <section class="seccio" id="interaction">
+            <div id="ixd" class="seccioMenu" data-id_item_menu="menu-ixd">
+            <section class="seccio" >
                 <div class="bloc blauflow foto">
                     <div class="imatge">     
                         <div class="aspect-ratio-square">
-                            <img src="img/flowjiminy.png" />
+                            <img src="img/flowjiminy.png"/>
                         </div>
                     </div>
                 </div>
@@ -203,8 +206,8 @@
 
             </section> 
 
-            <!--ui-->
-            <section class="seccio" id="ui">
+            <!--wireframes-->
+            <section class="seccio">
                     <div class="bloc ">
                             <div class="text paragraf">
                                 <h2>Wireframes<br><br></h2>
@@ -228,13 +231,14 @@
                             </div>
                     </div>
                 </section> 
+            </div>
 
-                <!--IxD-->
-                <section class="seccio" id="interaction">
+                <!--UI-->
+                <section class="seccio" id="ui">
                     <div class="bloc blauflow foto">
                         <div class="imatge">     
                             <div class="aspect-ratio-square">
-                                <img src="img/jiminyui.png" />
+                                <img src="img/jiminyui.png" class="seccioMenu" data-id_item_menu="menu-ui"/>
                             </div>
                         </div>
                     </div>
@@ -255,7 +259,40 @@
                         </div>
                     </div>
                 
-                            </section> 
+                </section> 
+
+                <section class="seccio" id="prototype">
+                    
+                        <div class="bloc  foto">
+                            <div class="imatge">
+                                <div >
+                                    <a class="aspect-ratio-square" href="https://invis.io/DMRYY4I37EX" target="_blank">
+                                        <img src="img/prototypejiminy.png"  class="seccioMenu" data-id_item_menu="menu-prototip"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="bloc carn">
+                                <div class="text paragraf">
+                                    <h2>Prototype<br><br></h2>
+                                    <p>You can finally see the prototype 
+                                        of the app. I have integrated the 
+                                        Google Maps API because users are 
+                                        very used to its navigation, but also 
+                                        to have information about the places 
+                                        you search, such as business hours, so 
+                                        that you have the possibility to set an 
+                                        alarm that is only active when that 
+                                        business is open. 
+                                        
+                                </div>
+                        <!-- activat nomes per mbl -->
+                        <a class="next" href="#links">&#8609;</a>
+                        </div>
+                    </section> 
+
+
 
             <!--Next/previous project-->
             <section class="seccio" id="links">
