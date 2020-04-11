@@ -192,7 +192,41 @@ a:visited {
     width: 70%;
 }
 
+.bloc.imatge.jiminy{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/recaditos.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 
+.bloc.imatge.mimu{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/mimuportada.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.papua{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/papuarombo.gif);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.crisi{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/crisi.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 
 
 /* textos */
@@ -295,7 +329,7 @@ h2{
 }
 
 .blanc{
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 } 
 
 .fons_mindmap{
@@ -332,11 +366,11 @@ h2{
 }
 
 .groc{
-    background-color: rgb(255, 213, 97);
+    background-color: #FFD561;
 }
 
 .groclar{
-    background-color: rgb(255, 249, 233);
+    background-color: #FFF9E9;
 }
 
 .grocpersonamimu{
