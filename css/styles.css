@@ -201,6 +201,15 @@ a:visited {
     background-size: cover;
 }
 
+.bloc.imatge.jiminy_remember{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/about_jiminy.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .bloc.imatge.mimu{
     height: 100%;
     position: relative;
@@ -227,6 +236,61 @@ a:visited {
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
+.bloc.imatge.crisi_referent{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/crisi_referent.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.crisi_colours{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/crisi_colours.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.crisi_tote{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/crisi_tote.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.crisi_gif{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/newsletter.gif);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.crisi_docs{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/crisi_docs.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.callme{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/contact.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 
 
 /* textos */
@@ -447,6 +511,12 @@ h2{
     }
 
 
+    .bloc.imatge{
+        order: 1;
+        width: 100%;
+    }
+
+    /*
     .bloc.foto{
         order: 1;
     }
@@ -454,7 +524,9 @@ h2{
     .imatge{
         max-width: 45vh;
     }
-        
+      
+    */
+
     #bottom_dr{
         display: none;
     }
