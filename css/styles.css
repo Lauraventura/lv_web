@@ -219,6 +219,15 @@ a:visited {
     background-size: cover;
 }
 
+.bloc.imatge.mimu_persona{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/personamimu.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .bloc.imatge.papua{
     height: 100%;
     position: relative;
