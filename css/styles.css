@@ -220,6 +220,15 @@ a:visited {
     background-size: cover;
 }
 
+.bloc.imatge.rebost2{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/portada_rebost.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .bloc.imatge.rebost_fruites{
     height: 100%;
     position: relative;
