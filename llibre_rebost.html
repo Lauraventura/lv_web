@@ -1,0 +1,336 @@
+<html>
+    <head>
+        <title>Laura Ventura</title>
+        <meta charset="utf-8">
+        <meta name="description" content="UX/UI Designer">
+        <meta name="keywords" content="ux, ui, design, ux designer, laura ventura">
+        <meta name="author" content="Laura Ventura">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
+        <link rel="stylesheet" href="css/reset.css"/> 
+        <link rel="stylesheet" href="css/styles.css"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+
+
+
+    <!--
+Pendent arreglar: 
+
+A: back to top al mobil:
+    1. es pot canviar per nomes una fletxa?
+    2. no funciona
+
+B: menu auxiliar projectes
+    revisar java per fer highlight 
+    de la current section
+
+C: scroll 
+    1. smooth no va a safari
+    2. fa coses rares al mbl
+
+D: eventual canvi d'idioma 
+    com colocar els dos elements
+
+
+E: Linkedin!!!!!
+-->
+
+  
+
+    <body id="wrapper">
+        
+        <header>
+            <nav>
+                <ul>
+                        <li><a class="menu lv_nom" href="index.html">LAURAVENTURA</a></li>
+                        <li><a class="menu top_dr" href="index.html#seccioabout">ABOUT</a></li>
+                        <li><a class="menu bottom_dr-hidden" id="bottom_dr" href="#wrapper">BACK TO TOP &xrarr;</a></li>
+                </ul>
+
+                <ul class="menu_projecte">
+                        <li id="menu-research"><a href="#research">User Research</a></li>
+                        <li id="menu-ixd"><a href="#ixd">Interaction design</a></li>
+                        <li id="menu-ui"><a href="#ui">Visual design</a></li>
+                        <li id="menu-prototip"><a href="#prototype">Prototype</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--about-->
+            <section class="seccio" id="portada">
+                <div class="bloc blau foto">
+                    <div class="img rebost">
+                    </div>
+
+
+                <!-- activat nomes per mbl -->
+                <a class="next" href="#prototip">&#8609;</a>
+
+                </div>
+            </section>
+
+
+            <!--prototype-->
+            <section class="seccio">
+                <div class="bloc imatge rebost"></div>
+
+                <div class="bloc groclar">
+                    <div class="text paragraf">
+                        <!-- <h2>Prototype<br><br></h2> -->
+                        <p>Mimu is a smart diary meant
+                            to recognize both toxic and
+                            healthy patterns of behaviour.
+                            It is a tool to encourage positive
+                            routines and collect good 
+                            memories that will help you 
+                            through difficult times.<br><br>
+                            
+                            <!-- Although Mimu is still a protoype, 
+                            you can try it here.  -->
+                            If you wish to know about the origin and evolution 
+                            of the project, keep scrolling.
+                        </p>
+                        
+                    </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#research">&#8609;</a>
+                </div>  
+            </section>  
+
+
+            <!--research-->
+            <div class="seccioMenu" data-id_item_menu="menu-research">
+            <section class="seccio" id="research">
+
+                <div class="bloc carn">
+                    <div class="text paragraf">
+                        <h2>RESEARCH<br><br></h2>
+                        <p>Given the subject I was dealing with, 
+                            I focused my research on the interviews. 
+                            Nevertheless, I still used surveys to 
+                            check some facts so that my own opinion 
+                            would not alter the results.<br><br>
+ 
+                            The conclusions confirmed something crucial: 
+                            there is certain anxiety triggered by the 
+                            fact that people suffering from cyclical 
+                            depression don’t always pick the signs 
+                            when they are about to relapse. That 
+                            feeling is quite permanent, and it is 
+                            usually difficult to tell if it is based 
+                            on facts or just fear of relapse.</p>
+                        
+                    </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#concept">&#8609;</a>
+                </div>  
+                <div class="bloc vermelltaronja foto">
+                    <div class="imatge">
+                        <div class="aspect-ratio-square">
+                            <img src="img/research.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section>             
+
+            <!--Persona-->
+            <section class="seccio">
+                <div class="bloc imatge mimu_persona"></div>
+                <div class="bloc blanc">
+                        <div class="text paragraf">
+                            <h2>PERSONA<br><br></h2>
+                            <p>My persona was clearly someone with 
+                                depression, but also a person who 
+                                needs a simple system to keep track of 
+                                her emotions (on her own or for therapy). 
+                                This is important, since people with 
+                                depression often have trouble maintaining 
+                                a routine and finding the strength to 
+                                perform simple tasks.<br><br>
+                                She also is afraid that talking or 
+                                seeing bad things that happened to 
+                                her will affect her very negatively. 
+
+                                
+                        </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#interaction">&#8609;</a>
+                </div>
+            </section> 
+
+
+            <!--MVP-->
+            <section class="seccio">
+                <div class="bloc blanc">
+                    <div class="text paragraf">
+                        <h2>MVP<br><br></h2>
+                        <p>I knew this product should never intend to replace 
+                            a doctor, but needed to be useful to people 
+                            in some other way. A typical struggle was traking 
+                            things that happened to them. This is useful for 
+                            two reasons: learning from the past, and letting 
+                            the good memories assist you when you are in a 
+                            bad place. My main features were two dashboards: 
+                            one with statistics about every memorie the user 
+                            introduced, and one with just the good memories, 
+                            intended to be a safe place to remember that 
+                            despite everything, there are good moments too.  
+                                    
+                        </p>
+                                
+                    </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#ui">&#8609;</a>
+                </div>
+                <div class="bloc gris">
+                    <div class="imatge">
+                        
+                        <div class="aspect-ratio-square">
+                            <img src="img/mvpmimu.png"/>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </div> <!-- acaba research -->
+
+
+
+
+
+            <!--ixd-->
+            <section class="seccio" id="ixd">
+                
+                    <div class="bloc groc foto">
+                        <div class="imatge">
+                            <div class="aspect-ratio-square">
+                                <img src="img/sitemapmimu.png"  class="seccioMenu" data-id_item_menu="menu-ixd"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloc blanc">
+                            <div class="text paragraf">
+                                <h2>INFORMATION ARCHITECTURE<br><br></h2>
+                                <p>There were so many layers of information 
+                                    to this project, that testing was 
+                                    fundamental to the building of the 
+                                    project. I had to change a couple 
+                                    times the whole structure of the 
+                                    app to make it simpler to navigate. 
+                                    Changes are a tough decision to make, 
+                                    but necessary in early stages of a 
+                                    project to avoid further problems. 
+                                    This project was a big learning in 
+                                    that sense. 
+                                    
+                            </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#links">&#8609;</a>
+                    </div>
+                </section> 
+
+            <!--UI-->
+            <section class="seccio" id="ui">
+                    <div class="bloc blanc">
+                        <div class="text paragraf">
+                            <h2>UI<br><br></h2>
+                            <p>I needed to set two moods, visually, 
+                                as well: one for the analytic data, 
+                                and one for the joyful data. That’s 
+                                why I made two different color palettes, 
+                                that I tried to unite with a similar 
+                                use of typography. This was the most 
+                                challenging part of the whole project 
+                                (which was very challenging every step of 
+                                the way), as I sort of needed to to create 
+                                two dialects of the same language. 
+                                But there was another challenge: how to 
+                                translate all the data into graphic 
+                                information while keeping it positive. 
+                                    
+                                        
+                            </p>
+                                    
+                        </div>
+                        <!-- activat nomes per mbl -->
+                        <a class="next" href="#ui">&#8609;</a>
+                    </div>
+                    <div class="bloc vermelltaronja">
+                        <div class="imatge">
+                            
+                            <div class="aspect-ratio-square">
+                                <img src="img/ui_mimu.jpg"  class="seccioMenu" data-id_item_menu="menu-ui"/>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+    
+                <!--prototip-->
+                <section class="seccio" id="prototype">
+                    
+                        <div class="bloc carn foto">
+                            <div class="imatge">
+                                <div >
+                                    <a class="aspect-ratio-square" href="https://invis.io/E2SF9YN9SW3#/367817466_principal" target="_blank">
+                                        <img src="img/prototypemimu.png"  class="seccioMenu" data-id_item_menu="menu-prototip"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="bloc blanc">
+                                <div class="text paragraf">
+                                    <h2>PROTOTYPE<br><br></h2>
+                                    <p>Here you have the link to the prototype of the project. 
+                                        Of course, it is not a full working 
+                                        prototype, and it is a simulation of 
+                                        a data view in the app. Nevertheless, 
+                                        when tested, this prototype allowed 
+                                        me to check my users connection to 
+                                        the product, and I felt it honoured 
+                                        all the previous research and testing. 
+                                        Of course, further testing will better 
+                                        the final product, but this materialization 
+                                        of the concept engaged users and validated 
+                                        the whole process. 
+                                        
+                                </div>
+                        <!-- activat nomes per mbl -->
+                        <a class="next" href="#links">&#8609;</a>
+                        </div>
+                    </section> 
+
+            <!--Next/previous project-->
+            <section class="seccio" id="links">
+                    <div class="bloc blanc">
+                        <div class="text">
+                                <a href="ticktrack.html"><h2>&#10229; Previous project</h2></a>                   
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="text">
+                            <a href="index.html"><h2>Back to main page</h2></a>              
+                        </div>
+                    </div>
+                </section> 
+            
+            
+        </main>
+
+
+
+
+
+        <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+    </body>
+    
+    
+</html>    

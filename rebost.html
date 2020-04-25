@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <title>Laura Ventura</title>
+        <meta charset="utf-8">
+        <meta name="description" content="UX/UI Designer">
+        <meta name="keywords" content="ux, ui, design, ux designer, laura ventura">
+        <meta name="author" content="Laura Ventura">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
+        <link rel="stylesheet" href="css/reset.css"/> 
+        <link rel="stylesheet" href="css/styles.css"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+
+
+
+    <!--
+Pendent arreglar: 
+
+A: back to top al mobil:
+    1. es pot canviar per nomes una fletxa?
+    2. no funciona
+
+B: menu auxiliar projectes
+    revisar java per fer highlight 
+    de la current section
+
+C: scroll 
+    1. smooth no va a safari
+    2. fa coses rares al mbl
+
+D: eventual canvi d'idioma 
+    com colocar els dos elements
+
+
+E: Linkedin!!!!!
+-->
+
+  
+
+    <body id="wrapper">
+        
+        <header>
+            <nav>
+                <ul>
+                        <li><a class="menu lv_nom" href="index.html">LAURAVENTURA</a></li>
+                        <li><a class="menu top_dr" href="index.html#seccioabout">ABOUT</a></li>
+                        <li><a class="menu bottom_dr-hidden" id="bottom_dr" href="#wrapper">BACK TO TOP &xrarr;</a></li>
+                </ul>
+
+                <!--<ul class="menu_projecte">
+                        <li id="menu-research"><a href="#research">User Research</a></li>
+                        <li id="menu-ixd"><a href="#ixd">Interaction design</a></li>
+                        <li id="menu-ui"><a href="#ui">Visual design</a></li>
+                        <li id="menu-prototip"><a href="#prototype">Prototype</a></li>
+                </ul>-->
+            </nav>
+        </header>
+
+        <main>
+            <!--about-->
+            <section class="seccio" id="portada">
+                <div class="bloc foto">
+                    <div class="img_portada rebost">
+                        <!-- <div class="aspect-ratio-wide">
+                            <img src="img/mimuportada.png" />
+                        </div> -->
+                    </div>
+
+
+                <!-- activat nomes per mbl -->
+                <a class="next" href="#prototip">&#8609;</a>
+
+                </div>
+            </section>
+
+
+            <!--prototype-->
+            <section class="seccio">
+                <div class="bloc imatge rebost fonsgris1"></div>
+
+                <div class="bloc fonsgris2">
+                    <div class="text paragraf">
+                        <!-- <h2>Prototype<br><br></h2> -->
+                        <p>This is an editorial and illustration project for a 
+                        collective that recovers traditional 
+                        food preserving techniques, 
+                        claiming this knowledge as a 
+                        political statement.<br><br>
+
+                        As it is an organization with very limited 
+                        fundings to edit the book, 
+                        I decided everithing would be in black and white, 
+                        to enable an extreamly cheap manufacture as a fanzine.
+                        </p>
+                        
+                    </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#research">&#8609;</a>
+                </div>  
+            </section>  
+
+
+            <!--research-->
+            <div class="seccioMenu" data-id_item_menu="menu-research">
+            <section class="seccio" id="research">
+
+                <div class="bloc fonsgris1">
+                    <div class="text paragraf">
+                        <h2>ILLUSTRATION<br><br></h2>
+                        <p>I made a set of illustrations 
+                            that could be printed in Black and White
+                            without losing any readability
+ 
+                            </p>
+                        
+                    </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#concept">&#8609;</a>
+                </div>  
+                <div class="bloc imatge rebost_fruites"></div>
+            </section>             
+
+            <!--Persona-->
+            <section class="seccio">
+                <div class="bloc imatge rebost_objectes"></div>
+                <div class="bloc imatge rebost_flors"></div>
+            </section> 
+
+
+            <!--MVP-->
+            <section class="seccio">
+                <div class="bloc blanc">
+                    <div class="text paragraf">
+                        <h2>TIPOGRAPHY<br><br></h2>
+                        <p>This book encourages people 
+                            to copy its content and distribute 
+                            it freely. In line with this philosophy,
+                            I chose to use open source fonts. <br><br>
+                            <a href="https://velvetyne.fr/fonts/minipax/">&xrarr; MINIPAX</a>      
+                        </p>
+                    </div>
+                    <!-- activat nomes per mbl -->
+                    <a class="next" href="#ui">&#8609;</a>
+                </div>
+
+                <div class="bloc imatge rebost_tipo"></div>
+
+            </section> 
+        </div> <!-- acaba research -->
+
+
+
+
+
+            <!--ixd-->
+            <section class="seccio" id="ixd">
+                
+                <div class="bloc imatge rebost_layout"></div>
+                <div class="bloc imatge rebost"></div>
+
+                
+                </section> 
+
+           
+
+            <!--Next/previous project-->
+            <section class="seccio" id="links">
+                    <div class="bloc blanc">
+                        <div class="text">
+                                <a href="ticktrack.html"><h2>&#10229; Previous project</h2></a>                   
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="text">
+                            <a href="index.html"><h2>Back to main page</h2></a>              
+                        </div>
+                    </div>
+                </section> 
+            
+            
+        </main>
+
+
+
+
+
+        <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+    </body>
+    
+    
+</html>    
