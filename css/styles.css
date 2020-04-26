@@ -43,7 +43,7 @@ body{
 .menu_projecte{
     position: fixed;
     z-index: 2;
-    bottom: 20px;
+    bottom: 60px;
     left: 20px;  
     font-size: 13px;
     opacity: 0.9;
@@ -97,10 +97,15 @@ a:visited {
     right: 20px;
 }
 
+.bottom_left{
+    BOTTOM:20px;
+    left: 20px;
+}
+
 #bottom_dr{
     transform: rotate(-90deg);
-    bottom: 70px;
-    right: -30px;
+    bottom: 80px;
+    right: -35px;
     opacity: 1;
     transition: all 0.5s ease-in-out;
 
