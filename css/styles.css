@@ -270,6 +270,15 @@ a:visited {
     background-size: cover;
 }
 
+.bloc.imatge.rebost_llimona{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/rebost_llimona.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .bloc.imatge.rebost_layout{
     height: 100%;
     position: relative;
@@ -319,6 +328,15 @@ a:visited {
     height: 100%;
     position: relative;
     background-image: url(../img/crisi.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.crisi_home{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/crisi_home.png);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -468,6 +486,7 @@ h2{
 .groc{background-color: #FFD561;}
 .groclar{background-color: #FFF9E9;}
 .grocpersonamimu{background-color: #FFF6AE;}
+.grocllimona{background-color: #FFE974;}
 .taronja{background-color: #FFC677;}
 .lila{background-color: #095AF5;}
 .lilapapua{background-color: #776EFF}
