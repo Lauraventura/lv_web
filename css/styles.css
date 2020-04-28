@@ -161,6 +161,15 @@ a:visited {
 
 /* imatges */
 
+.bloc.imatge.home_hola{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/home_hola.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .img_portada.rebost{
     width:100%;
     height: 98vh;
@@ -301,6 +310,15 @@ a:visited {
     height: 100%;
     position: relative;
     background-image: url(../img/mimuportada.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.mimu_home{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/mimu_home.png);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
