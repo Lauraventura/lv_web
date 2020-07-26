@@ -234,6 +234,7 @@ a:visited {
     background-size: cover;
 }
 
+
 .bloc.imatge.rebost2{
     height: 100%;
     position: relative;
@@ -409,6 +410,15 @@ a:visited {
     height: 100%;
     position: relative;
     background-image: url(../img/contact.png);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bloc.imatge.melvida_home{
+    height: 100%;
+    position: relative;
+    background-image: url(../img/melvida_upcoming.png);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
