@@ -62,14 +62,14 @@ function Engine() {
 			var distance = Math.sqrt(Math.pow(distanceRed,2)+Math.pow(distanceGreen,2)+Math.pow(distanceBlue,2));
 			//console.log(distance);
 			if (distance < 36){coinSound.volume = 1;}
-			else if (distance < 72){coinSound.volume = 0.8;}
+			else if (distance < 72){coinSound.volume = 0.9;}
 			else if (distance < 108){coinSound.volume = 0.6;}
 			else if (distance < 144){coinSound.volume = 0.5;}
-			else if (distance < 180){coinSound.volume = 0.4;}
+			else if (distance < 180){coinSound.volume = 0.3;}
 			else if (distance < 216){coinSound.volume = 0.2;}
-			else if (distance < 250){coinSound.volume = 0.2;}
+			else if (distance < 250){coinSound.volume = 0.1;}
 			else if (distance < 288){coinSound.volume = 0.1;}
-			else if (distance < 324){coinSound.volume = 0.1;}
+			else if (distance < 324){coinSound.volume = 0.0;}
 			else if (distance < 360){coinSound.volume = 0.0;}
 			coinSound.currentTime = 0;
 			coinSound.play();

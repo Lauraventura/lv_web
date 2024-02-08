@@ -19,9 +19,9 @@ function Options() {
 	this.draw = function() {
 		ctx.drawImage(this.sprite,0,0,canvas.width,canvas.height);
 		ctx.fillStyle="#ffffff";
-		ctx.font=" 27px Varela Round";
+		ctx.font=" 16px Varela Round";
 		ctx.textAlign="center"; 
-		ctx.fillText((ENGINE.ratio),canvas.width/10*2.5,canvas.height/10*7.6);
+		ctx.fillText((ENGINE.ratio),canvas.width/10*3,canvas.height/10*7.6);
 
 	}
 }
